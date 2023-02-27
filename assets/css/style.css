@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.button-blue{
+    background-color: #0061ff;
+    padding: 7px 12px;
+    color: white;
+    border: 0;
+    font-size: 13px;
+}
+
+.large-button{
+    padding: 10px 20px;
+}
+
+.center{
+    margin: auto;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.margin-right{
+    margin-right: 5px;
+}
+
+.margin-20{
+    margin: 20px 0;
+}
+
+.margin-50{
+    margin: 50px 0;
+}
+
+.padding-10{
+    padding: 10px 25px;
+}
+
+.small-font{
+    font-size: 13px;
+}
+
+.container-size{
+    width: 60%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+
+/* Header */
+
+header{
+    justify-content: space-between;
+}
+
+header .logo{
+    vertical-align: middle;
+    height: 20px;
+}
+
+header span{
+    padding: 0 15px;
+}
+
+header .box-1, .box-2{
+    padding: 18px 15px;
+}
+
+/* Main */
+
+/* Section-1 */
+
+.section-1{
+    background-color: #b4d0e7;
+    max-height: 510px;
+}
+
+.section-1 > .container-1{
+    width: 65%;
+}
+
+.container-1 > h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    padding: 60px 0 20px 0;
+}
+
+.container-1 img{
+    margin-top: 20px;
+}
+
+.fa-solid.fa-arrow-down{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+/* Section-2 */
+
+.section-2 > .container-2{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.columns{
+    height: 780px;
+}
+
+.container-2 span{
+    margin: 0 10px;
+}
+
+.fa-solid.fa-circle-dot{
+    color: #0061ff;
+}
+
+.container-2 .big-font{
+    font-size: 35px;
+}
+
+.column{
+    margin: 0 15px;
+    height: 100%;
+    border: 1px solid lightgrey;
+}
+
+.part-top{
+    text-align: center;
+}
+
+.flex-basis{
+    flex-basis: calc(100% / 3);
+}
+
+.part-top{
+    border-bottom: 1px solid lightgrey;
+}
+
+hr{
+    width: 40px;
+    margin-left: 25px;
+    color: lightgrey;
+}
+
+/* Section-3 */
+
+.container-3{
+    border: 1px solid lightgrey;
+
+}
+
+.card-1{
+    width: 70%;
+}
+
+.card-2{
+    width: 30%;
+}
