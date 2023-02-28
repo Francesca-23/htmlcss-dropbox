@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,32 @@
     <title>Dropbox</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <!-- Header -->
-    
-    <header class="flex">
 
-        <div class="box-1">
-            <img src="./assets/img/logo-small.png" alt="logo" class="logo">
-            <span>Perché Dropbox</span>
-            <span>Funzioni</span>
-            <span>Piani e prezzi</span>
-        </div>
+    <header>
 
-        <div class="box-2">
-            <span>Supporto</span>
-            <span>Contatta l'ufficio vendite</span>
-            <span>Accedi</span>
-            <button class="button-blue">Inizia</button>
-        </div>
+        <nav class="flex small-font">
+            <div class="box-1">
+                <img src="./assets/img/logo-small.png" alt="logo" class="logo">
+                <span>Perché Dropbox</span>
+                <span>Funzioni</span>
+                <span>Piani e prezzi</span>
+            </div>
+
+            <div class="box-2">
+                <span>Supporto</span>
+                <span>Contatta l'ufficio vendite</span>
+                <span>Accedi</span>
+                <button class="button-blue">Inizia</button>
+            </div>
+        </nav>
 
     </header>
 
@@ -53,7 +58,7 @@
                             esistente.
                         </p>
                         <button class="button-blue">Inizia la tua prova gratuita</button>
-                        <p class="margin-20 small-font">Annulla in qualsiasi momento</p> 
+                        <p class="margin-20 small-font">Annulla in qualsiasi momento</p>
                         <i class="fa-solid fa-arrow-down"></i>
                     </div>
                     <div>
@@ -69,20 +74,22 @@
 
             <div class="center container-size container-2 small-font">
 
-                <div>
-                    <h2 class="big-font">Trova il piano business che fa per te</h2>
-                    <span>
-                        <i class="fa-solid fa-circle-dot margin-50"></i>
+                <div class="margin-50">
+                    <h2 class="big-font margin-50">Trova il piano business che fa per te</h2>
+                    <span class="selection">
+                        <div class="circle circle-1"></div>
                         Fatturazione mensile
                     </span>
                     <span>
-                        <i class="fa-regular fa-circle margin-50"></i>
+                        <div class="circle circle-2"></div>
                         Fatturazione annuale
                     </span>
                 </div>
 
                 <div class="flex flex-between columns">
 
+                    <!-- Column-1 -->
+
                     <div class="column flex-basis">
 
                         <div class="part-top padding-10">
@@ -90,38 +97,42 @@
                             Singolo
                         </div>
 
-                        <div class="part-bottom">
+                        <div class="part-bottom padding-10">
 
-                            <div class="margin-20">
-                                <h2 class="padding-10">Professional</h2>
-                                <strong class="padding-10">€ 12,00</strong>
-                                <div class="padding-10">/mese</div>
+                            <div>
+                                <h2 class="padding-top">Professional</h2>
+                                <strong class="padding-top">€ 12,00</strong>
+                                <div class="padding-top">/mese</div>
                             </div>
 
                             <div class="margin-20">
-                                <div class="padding-10">
-                                    <i class="fa-solid fa-user"></i>
-                                    1 utente
-                                </div>
-                                <div class="padding-10 flex flex-center">
-                                    <i class="fa-solid fa-folder margin-right"></i>
-                                    <div>
-                                        5 TB di spazio di archiviazione sicuro 
-                                    </div>
-                                </div>
-                                <div class="padding-10 flex flex-center">
-                                    <i class="fa-solid fa-share-nodes margin-right"></i>
-                                    <div>
-                                    Funzioni di produttività premium e condivisione file semplice e sicura
-                                    </div>
-                                </div>
+
+                                <ul>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>1 utente</span>
+                                    </li>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-folder"></i>
+                                        <span>
+                                            5 TB di spazio di archiviazione sicuro
+                                        </span>
+                                    </li>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <span>
+                                            Funzioni di produttività premium e condivisione file semplice e sicura
+                                        </span>
+                                    </li>
+                                </ul>
+
                             </div>
-            
+
                             <div class="margin-20">
-                                <div class="padding-10">
-                                    <button class="button-blue large-button">Prova gratis per 30 giorni</button>
+                                <div class="padding-top">
+                                    <button class="button-blue">Prova gratis per 30 giorni</button>
                                 </div>
-                                <div class="padding-10">
+                                <div class="padding-top">
                                     Oppure
                                     <a href="#">acquista ora</a>
                                 </div>
@@ -130,15 +141,15 @@
                             <hr>
 
                             <div class="margin-20">
-                                <h4 class="padding-10">Punti salienti del piano</h4>
+                                <h4 class="padding-top">Punti salienti del piano</h4>
                                 <ul>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Invia file fino a 100 GB con Dropbox Transfert
+                                        <span>Invia file fino a 100 GB con Dropbox Transfert</span>
                                     </li>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Cartelle offline su dispositivi mobili
+                                        <span>Cartelle offline su dispositivi mobili</span>
                                     </li>
                                 </ul>
                             </div>
@@ -147,45 +158,52 @@
 
                     </div>
 
+                    <!-- Column-2 -->
+
                     <div class="column flex-basis">
 
                         <div class="part-top padding-10">
-                            <i class="fa-solid fa-user"></i>
-                            Singolo
+                            <i class="fa-solid fa-users"></i>
+                            Team
                         </div>
 
-                        <div class="part-bottom">
+                        <div class="part-bottom padding-10">
 
-                            <div class="margin-20">
-                                <h2 class="padding-10">Professional</h2>
-                                <strong class="padding-10">€ 12,00</strong>
-                                <div class="padding-10">/mese</div>
+                            <div>
+                                <h2 class="padding-top">Advanced</h2>
+                                <strong class="padding-top">€ 18,00</strong>
+                                <div class="padding-top">/utente/mese</div>
                             </div>
 
                             <div class="margin-20">
-                                <div class="padding-10">
-                                    <i class="fa-solid fa-user"></i>
-                                    1 utente
-                                </div>
-                                <div class="padding-10 flex flex-center">
-                                    <i class="fa-solid fa-folder margin-right"></i>
-                                    <div>
-                                        5 TB di spazio di archiviazione sicuro 
-                                    </div>
-                                </div>
-                                <div class="padding-10 flex flex-center">
-                                    <i class="fa-solid fa-share-nodes margin-right"></i>
-                                    <div>
-                                    Funzioni di produttività premium e condivisione file semplice e sicura
-                                    </div>
-                                </div>
+
+                                <ul>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-users"></i>
+                                        <span>3 o più utenti</span>
+                                    </li>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-folder"></i>
+                                        <span>
+                                            Tutto lo spazio di cui ha bisogno il tuo team
+                                        </span>
+                                    </li>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <span>
+                                            Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del
+                                            tuo team
+                                        </span>
+                                    </li>
+                                </ul>
+
                             </div>
-            
+
                             <div class="margin-20">
-                                <div class="padding-10">
-                                    <button class="button-blue large-button">Prova gratis per 30 giorni</button>
+                                <div class="padding-top">
+                                    <button class="button-blue">Prova gratis per 30 giorni</button>
                                 </div>
-                                <div class="padding-10">
+                                <div class="padding-top">
                                     Oppure
                                     <a href="#">acquista ora</a>
                                 </div>
@@ -194,27 +212,27 @@
                             <hr>
 
                             <div class="margin-20">
-                                <h4 class="padding-10">Punti salienti del piano</h4>
+                                <h4 class="padding-top">Punti salienti del piano</h4>
                                 <ul>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Nessun limite di spazio peri file
+                                        <span>Nessun limite di spazio per i file</span>
                                     </li>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Cartelle offline su dispositivi mobili
+                                        <span>Cartelle offline su dispositivi mobili</span>
                                     </li>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Risparmio del 50% rispetto alle iscrizioni singole
+                                        <span>Risparmio del 50% rispetto alle iscrizioni singole</span>
                                     </li>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Possibilità di inserire nuovi membri del team
+                                        <span>Possibilità di inserire nuovi membri nel team</span>
                                     </li>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Gestione dei permessi in base ai ruoli
+                                        <span>Gestione dei permessi in base ai ruoli</span>
                                     </li>
                                 </ul>
                             </div>
@@ -223,45 +241,52 @@
 
                     </div>
 
+                    <!-- Column-3 -->
+
                     <div class="column flex-basis">
 
                         <div class="part-top padding-10">
-                            <i class="fa-solid fa-user"></i>
-                            Singolo
+                            <i class="fa-solid fa-building"></i>
+                            Azienda
                         </div>
 
-                        <div class="part-bottom">
+                        <div class="part-bottom padding-10">
 
-                            <div class="margin-20">
-                                <h2 class="padding-10">Professional</h2>
-                                <strong class="padding-10">€ 12,00</strong>
-                                <div class="padding-10">/mese</div>
+                            <div>
+                                <h2 class="padding-top">Enterprise</h2>
+                                <strong class="padding-top">Contattaci</strong>
+                                <div class="padding-top">-</div>
                             </div>
 
                             <div class="margin-20">
-                                <div class="padding-10">
-                                    <i class="fa-solid fa-user"></i>
-                                    1 utente
-                                </div>
-                                <div class="padding-10 flex flex-center">
-                                    <i class="fa-solid fa-folder margin-right"></i>
-                                    <div>
-                                        5 TB di spazio di archiviazione sicuro 
-                                    </div>
-                                </div>
-                                <div class="padding-10 flex flex-center">
-                                    <i class="fa-solid fa-share-nodes margin-right"></i>
-                                    <div>
-                                    Funzioni di produttività premium e condivisione file semplice e sicura
-                                    </div>
-                                </div>
+
+                                <ul>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-user"></i>
+                                        <span>10 o più utenti</span>
+                                    </li>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-folder"></i>
+                                        <span>
+                                            Soluzioni personalizzabili per la tua azienda
+                                        </span>
+                                    </li>
+                                    <li class="flex">
+                                        <i class="fa-solid fa-share-nodes"></i>
+                                        <span>
+                                            Assistenza personalizzata per aiutare gli amministratori in una gestione su
+                                            larga scala
+                                        </span>
+                                    </li>
+                                </ul>
+
                             </div>
-            
+
                             <div class="margin-20">
-                                <div class="padding-10">
-                                    <button class="button-blue large-button">Prova gratis per 30 giorni</button>
+                                <div class="padding-top">
+                                    <button class="button-blue">Prova gratis per 30 giorni</button>
                                 </div>
-                                <div class="padding-10">
+                                <div class="padding-top">
                                     Oppure
                                     <a href="#">acquista ora</a>
                                 </div>
@@ -270,19 +295,19 @@
                             <hr>
 
                             <div class="margin-20">
-                                <h4 class="padding-10">Punti salienti del piano</h4>
+                                <h4 class="padding-top">Punti salienti del piano</h4>
                                 <ul>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Cartelle offline su dispositivi mobili
+                                        <span>Cartelle offline su dispositivi mobili</span>
                                     </li>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Servizio assistenza 24/h
+                                        <span>Servizio assistenza 24/h</span>
                                     </li>
-                                    <li class="padding-10">
+                                    <li class="flex">
                                         <i class="fa-solid fa-check"></i>
-                                        Possibilità di personalizzazione totale
+                                        <span>Possibilità di personalizzazione totale</span>
                                     </li>
                                 </ul>
                             </div>
@@ -298,23 +323,46 @@
         <!-- Third section -->
 
         <section class="section-3">
+
             <div class="center container-size container-3 small-font">
                 <div class="part-top padding-10">
                     <i class="fa-solid fa-building"></i>
                     Team
                 </div>
-                <div class="flex flex-between">
+
+                <div class="flex flex-between padding-10">
                     <div class="card-1">
-                        <h2 class="padding-10 margin-top">Enterprise</h2>
-                        <span class="padding-10"><strong>Contatta l'ufficio vendite per i prezzi</strong></span>
-                        <p class="margin-20 padding-10">
-                            Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su
+                        <h2 class="padding-top">Enterprise</h2>
+                        <span class="padding-top"><strong>Contatta l'ufficio vendite per i prezzi</strong></span>
+                        <p>
+                            Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
+                            su
                             qualsiasi scala.
                         </p>
                     </div>
                     <div class="card-2">
-                        <button class="button-blue large-button margin-20">Contatta l'ufficio vendite</button>
+                        <button class="button-blue">Contatta l'ufficio vendite</button>
                     </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Fourth section -->
+
+        <section class="section-4">
+            <div class="center container-size container-4 flex flex-between">
+                <div class="card-left">
+                    <img src="./assets/img/partner.png" alt="partner">
+                </div>
+                <div class="card-right small-font margin-50">
+                    <h2>Entra in contatto con un partner Dropbox</h2>
+                    <p class="padding-top">
+                        Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per
+                        raggiungere i tuoi obiettivi aziendali, tra cui implementazione, integrazione, gestione e
+                        supporto continui.
+                    </p>
+                    <button class="button-white margin-top">Trova un partner</button>
                 </div>
             </div>
         </section>
@@ -324,4 +372,5 @@
     <footer></footer>
 
 </body>
+
 </html>
